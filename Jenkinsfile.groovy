@@ -7,6 +7,7 @@ node("master"){
       maven: 'M3'){
         
       bat "mvn clean install"
+      bat "mvn build"
  
     }
   }
