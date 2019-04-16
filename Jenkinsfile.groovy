@@ -11,7 +11,8 @@ node{
         mavenLocalRepo: '.repository') {
  
       // Run the maven build
-      sh "mvn clean install"
+     // sh "mvn clean install"
+      bat 'mvn build'
  
     } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs reports...
   }
