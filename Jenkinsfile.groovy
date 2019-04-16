@@ -6,9 +6,8 @@ node("master"){
         // Maven installation declared in the Jenkins "Global Tool Configuration"
       maven: 'M3'){
         
-      bat "mvn clean install"
-      bat "mvn build"
- 
+      bat "mvn verify"
+      
     }
   }
 }
